@@ -1,0 +1,59 @@
+{
+  "id": "POLITY-CH2",
+  "name": "Making of the Constitution",
+  "subject": "Polity",
+  "book": "M. Laxmikanth",
+  "chapter": "Chapter 2 — Making of the Constitution",
+  "questions": [
+    {
+      "id": "POLITY-CH2-001",
+      "topic": "Constituent Assembly",
+      "difficulty": "UPSC",
+      "source": "Laxmikanth",
+      "question": "Who first put forward the idea of a Constituent Assembly for India?",
+      "options": {
+        "A": "M.N. Roy",
+        "B": "Jawaharlal Nehru",
+        "C": "Mahatma Gandhi",
+        "D": "B.R. Ambedkar"
+      },
+      "answer": "A",
+      "explanation": "M.N. Roy first put forward the idea of a Constituent Assembly in 1934.",
+      "option_analysis": {
+        "A": "Correct — he proposed the idea in 1934.",
+        "B": "Incorrect — Nehru later played a major role.",
+        "C": "Incorrect — Gandhi supported constitutional development but was not the first proposer.",
+        "D": "Incorrect — Ambedkar later chaired the Drafting Committee."
+      },
+      "upsc_trap": "Do not confuse the origin of the idea with later leaders who shaped the Assembly.",
+      "memory_hook": "M.N. Roy → 1934 → Constituent Assembly",
+      "key_fact": "The Assembly was eventually constituted in 1946 under the Cabinet Mission Plan.",
+      "linkage": "Connect this with the Cabinet Mission Plan and indirect election."
+    },
+    {
+      "id": "POLITY-CH2-002",
+      "topic": "Cabinet Mission Plan",
+      "difficulty": "UPSC",
+      "source": "Laxmikanth",
+      "question": "The Constituent Assembly was constituted mainly under which plan?",
+      "options": {
+        "A": "Cripps Mission",
+        "B": "Cabinet Mission Plan",
+        "C": "Mountbatten Plan",
+        "D": "Wavell Plan"
+      },
+      "answer": "B",
+      "explanation": "The Constituent Assembly was constituted in 1946 under the Cabinet Mission Plan.",
+      "option_analysis": {
+        "A": "Incorrect — it came earlier.",
+        "B": "Correct — the 1946 plan provided the framework.",
+        "C": "Incorrect — it concerned transfer of power and partition.",
+        "D": "Incorrect — it preceded the Cabinet Mission."
+      },
+      "upsc_trap": "UPSC can test chronology by mixing Cripps, Wavell, Cabinet Mission and Mountbatten.",
+      "memory_hook": "Cabinet Mission → 1946 → Constituent Assembly",
+      "key_fact": "Members were elected indirectly by provincial legislatures.",
+      "linkage": "Connect the plan with composition, indirect election and partition."
+    }
+  ]
+}
