@@ -1,0 +1,2946 @@
+{
+  "bank_name": "Polity Chapter 7 — Fundamental Rights — UPSC POV (AIR 1)",
+  "file_name": "Polity_Chapter_07_UPSC_POV_AIR1.json",
+  "version": "UPSC POV AIR 1 v1.1 — stable schema",
+  "subject": "Polity",
+  "chapter": "Fundamental Rights",
+  "source_file": "08 polity fundamental right.pdf",
+  "source_pages": 63,
+  "question_count": 108,
+  "purpose": "Comprehensive active-recall UPSC Prelims MCQ practice grounded in the uploaded PDF.",
+  "coverage": [
+    "Articles 12–13",
+    "Articles 14–18",
+    "Articles 19–22",
+    "Articles 23–24",
+    "Articles 25–30",
+    "Article 32 and writs",
+    "Articles 33–35",
+    "Right to Property",
+    "Articles 31A–31C",
+    "cases and amendments",
+    "criticism and significance",
+    "rights outside Part III",
+    "integrated UPSC questions"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many Fundamental Rights are presently listed in the chapter?",
+      "options": {
+        "A": "Seven",
+        "B": "Six",
+        "C": "Five",
+        "D": "Eight"
+      },
+      "answer": "B",
+      "correct_option": "Six",
+      "explanation": "The 44th Amendment, 1978 removed the Right to Property from Part III, leaving six Fundamental Rights.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. A is the original count; B is the present count stated in the PDF.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "A is the original count; B is the present count stated in the PDF.",
+      "memory_hook": "Original 7 → Property removed → 6",
+      "topic": "Overview",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 2,
+      "question": "Fundamental Rights are contained in which Part and Articles?",
+      "options": {
+        "A": "Part II, Articles 5–11",
+        "B": "Part III, Articles 12–35",
+        "C": "Part IV, Articles 36–51",
+        "D": "Part V, Articles 52–151"
+      },
+      "answer": "B",
+      "correct_option": "Part III, Articles 12–35",
+      "explanation": "The PDF places Fundamental Rights in Part III, Articles 12–35.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Part III = Fundamental Rights",
+      "topic": "Overview",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 3,
+      "question": "Which right ceased to be a Fundamental Right through the 44th Amendment?",
+      "options": {
+        "A": "Equality",
+        "B": "Property",
+        "C": "Religion",
+        "D": "Constitutional remedies"
+      },
+      "answer": "B",
+      "correct_option": "Property",
+      "explanation": "The Right to Property was removed from Part III and is now protected under Article 300-A.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "44th → property out of Part III",
+      "topic": "Property",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 4,
+      "question": "What does 'justiciable' mean in relation to Fundamental Rights?",
+      "options": {
+        "A": "They are absolute",
+        "B": "They can be enforced through courts",
+        "C": "They apply only to citizens",
+        "D": "They need no judicial remedy"
+      },
+      "answer": "B",
+      "correct_option": "They can be enforced through courts",
+      "explanation": "Justiciable rights can be enforced through courts.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Justiciable = court-enforceable",
+      "topic": "Features",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 5,
+      "question": "Are Fundamental Rights absolute?",
+      "options": {
+        "A": "Yes",
+        "B": "No; they are qualified and may face reasonable restrictions",
+        "C": "Only Article 19 is absolute",
+        "D": "Only Article 21 is absolute"
+      },
+      "answer": "B",
+      "correct_option": "No; they are qualified and may face reasonable restrictions",
+      "explanation": "The PDF says Fundamental Rights are qualified and subject to reasonable restrictions.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Fundamental ≠ absolute",
+      "topic": "Features",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 6,
+      "question": "Which Article defines 'State' for Part III?",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "14"
+      },
+      "answer": "B",
+      "correct_option": "12",
+      "explanation": "Article 12 defines State for Fundamental Rights.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "12 = State",
+      "topic": "Article 12",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 7,
+      "question": "Which is included in 'State' under Article 12?",
+      "options": {
+        "A": "Only Union Government",
+        "B": "Union/state organs, local authorities and other authorities",
+        "C": "Only courts",
+        "D": "Only Parliament"
+      },
+      "answer": "B",
+      "correct_option": "Union/state organs, local authorities and other authorities",
+      "explanation": "The PDF gives a broad definition covering Union and state organs, local authorities and other authorities.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "12 = Union + State + Local + Other",
+      "topic": "Article 12",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 8,
+      "question": "Can a private body ever fall within Article 12 according to the PDF?",
+      "options": {
+        "A": "Never",
+        "B": "Yes, when functioning as an instrument of the State",
+        "C": "Always",
+        "D": "Only if Parliament declares it"
+      },
+      "answer": "B",
+      "correct_option": "Yes, when functioning as an instrument of the State",
+      "explanation": "The PDF notes the Supreme Court view that a private body/agency functioning as an instrument of the State may fall within Article 12.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Instrument of State → possible Article 12",
+      "topic": "Article 12",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 9,
+      "question": "Article 13 is principally associated with:",
+      "options": {
+        "A": "Judicial review of laws inconsistent with Fundamental Rights",
+        "B": "Emergency",
+        "C": "Finance",
+        "D": "Citizenship"
+      },
+      "answer": "A",
+      "correct_option": "Judicial review of laws inconsistent with Fundamental Rights",
+      "explanation": "Article 13 declares laws inconsistent with Fundamental Rights void and is linked in the PDF to judicial review.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "13 = inconsistent law → void",
+      "topic": "Article 13",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 10,
+      "question": "Which can fall within the wide meaning of 'law' under Article 13?",
+      "options": {
+        "A": "Only Acts",
+        "B": "Ordinances, delegated legislation and customs having force of law",
+        "C": "Only constitutional amendments",
+        "D": "Only court judgments"
+      },
+      "answer": "B",
+      "correct_option": "Ordinances, delegated legislation and customs having force of law",
+      "explanation": "The PDF gives permanent laws, ordinances, delegated legislation and customs/usages having force of law.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Article 13 catches more than Acts",
+      "topic": "Article 13",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 11,
+      "question": "Which case is linked in the PDF to challenge of constitutional amendments violating basic structure?",
+      "options": {
+        "A": "A.K. Gopalan",
+        "B": "Kesavananda Bharati",
+        "C": "Indra Sawhney",
+        "D": "Minerva Mills"
+      },
+      "answer": "B",
+      "correct_option": "Kesavananda Bharati",
+      "explanation": "The PDF connects Kesavananda Bharati (1973) with basic-structure review of constitutional amendments.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Kesavananda = basic structure",
+      "topic": "Cases",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 12,
+      "question": "Article 14 applies to:",
+      "options": {
+        "A": "Citizens only",
+        "B": "All persons",
+        "C": "Foreigners only",
+        "D": "Government servants only"
+      },
+      "answer": "B",
+      "correct_option": "All persons",
+      "explanation": "The PDF says Article 14 applies to all persons, including citizens, foreigners and legal persons.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "14 = all persons",
+      "topic": "Article 14",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 13,
+      "question": "Which origin pairing is correct?",
+      "options": {
+        "A": "Equality before law—British; equal protection—American",
+        "B": "Equality before law—American; equal protection—British",
+        "C": "Both American",
+        "D": "Both British"
+      },
+      "answer": "A",
+      "correct_option": "Equality before law—British; equal protection—American",
+      "explanation": "The PDF identifies equality before law as British in origin and equal protection as American.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "British before law; American equal protection",
+      "topic": "Article 14",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 14,
+      "question": "Article 14 permits reasonable classification when it is based on:",
+      "options": {
+        "A": "Arbitrary distinction",
+        "B": "Intelligible differential and substantial distinction",
+        "C": "Religion alone",
+        "D": "Political preference"
+      },
+      "answer": "B",
+      "correct_option": "Intelligible differential and substantial distinction",
+      "explanation": "The PDF says classification must not be arbitrary and should have an intelligible differential and substantial distinction.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Reasonable class = intelligible difference",
+      "topic": "Article 14",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 15,
+      "question": "Which is NOT one of Dicey's Rule of Law elements applicable to India according to the PDF?",
+      "options": {
+        "A": "Absence of arbitrary power",
+        "B": "Equality before law",
+        "C": "Primacy of individual rights as source of Constitution",
+        "D": "None"
+      },
+      "answer": "C",
+      "correct_option": "Primacy of individual rights as source of Constitution",
+      "explanation": "The PDF says the first two apply to India, but the third does not because the Constitution is the source of individual rights.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is C.",
+        "B": "Incorrect. The correct answer is C.",
+        "C": "Correct. C is correct.",
+        "D": "Incorrect. The correct answer is C."
+      },
+      "upsc_trap": "C is correct.",
+      "memory_hook": "Dicey 1+2 yes, 3 no",
+      "topic": "Rule of Law",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 16,
+      "question": "Which Article provides President/Governor immunities discussed as an exception to equality?",
+      "options": {
+        "A": "360",
+        "B": "361",
+        "C": "365",
+        "D": "368"
+      },
+      "answer": "B",
+      "correct_option": "361",
+      "explanation": "Article 361 provides these immunities.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "361 = President/Governor immunity",
+      "topic": "Article 14",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 17,
+      "question": "Article 15 prohibits State discrimination against citizens on grounds only of:",
+      "options": {
+        "A": "Religion, race, caste, sex, place of birth",
+        "B": "Residence and descent only",
+        "C": "Wealth only",
+        "D": "Education only"
+      },
+      "answer": "A",
+      "correct_option": "Religion, race, caste, sex, place of birth",
+      "explanation": "These five grounds are listed in the PDF.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "15 = R-R-C-S-PB",
+      "topic": "Article 15",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 18,
+      "question": "Why is the word 'only' important in Article 15?",
+      "options": {
+        "A": "It prohibits all distinctions",
+        "B": "It means discrimination solely on the listed grounds is prohibited",
+        "C": "It applies only to foreigners",
+        "D": "It removes all exceptions"
+      },
+      "answer": "B",
+      "correct_option": "It means discrimination solely on the listed grounds is prohibited",
+      "explanation": "The PDF specifically explains the significance of 'only'.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "15 + ONLY",
+      "topic": "Article 15",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 19,
+      "question": "Which Article 15 provision can operate against private individuals as described in the PDF?",
+      "options": {
+        "A": "The first provision only",
+        "B": "The provision concerning access to specified public places",
+        "C": "Neither",
+        "D": "Only Article 16"
+      },
+      "answer": "B",
+      "correct_option": "The provision concerning access to specified public places",
+      "explanation": "The PDF says the second provision prohibits discrimination by both State and private individuals in the specified contexts.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "15(2) reaches private discrimination",
+      "topic": "Article 15",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 20,
+      "question": "Which amendment added the EWS special-provision exception discussed under Article 15?",
+      "options": {
+        "A": "77th",
+        "B": "86th",
+        "C": "93rd",
+        "D": "103rd"
+      },
+      "answer": "D",
+      "correct_option": "103rd",
+      "explanation": "The PDF identifies the 103rd Amendment Act, 2019.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is D.",
+        "B": "Incorrect. The correct answer is D.",
+        "C": "Incorrect. The correct answer is D.",
+        "D": "Correct. D is correct."
+      },
+      "upsc_trap": "D is correct.",
+      "memory_hook": "103 = EWS",
+      "topic": "Article 15",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 21,
+      "question": "Article 16 concerns equality of opportunity in:",
+      "options": {
+        "A": "Private contracts",
+        "B": "Public employment under the State",
+        "C": "Religious worship",
+        "D": "Education only"
+      },
+      "answer": "B",
+      "correct_option": "Public employment under the State",
+      "explanation": "Article 16 concerns employment or appointment to offices under the State.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "16 = State jobs",
+      "topic": "Article 16",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 22,
+      "question": "Who can prescribe residence as a condition for certain public employment under the chapter?",
+      "options": {
+        "A": "State legislature alone",
+        "B": "Parliament",
+        "C": "Governor alone",
+        "D": "Supreme Court"
+      },
+      "answer": "B",
+      "correct_option": "Parliament",
+      "explanation": "The PDF states Parliament can prescribe such a residence condition for specified employment.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Residence condition → Parliament",
+      "topic": "Article 16",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 23,
+      "question": "The Mandal Commission was appointed under:",
+      "options": {
+        "A": "Article 14",
+        "B": "Article 16",
+        "C": "Article 340",
+        "D": "Article 368"
+      },
+      "answer": "C",
+      "correct_option": "Article 340",
+      "explanation": "The PDF states the Second Backward Classes Commission was appointed under Article 340.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is C.",
+        "B": "Incorrect. The correct answer is C.",
+        "C": "Correct. C is correct.",
+        "D": "Incorrect. The correct answer is C."
+      },
+      "upsc_trap": "C is correct.",
+      "memory_hook": "340 = backward classes commission",
+      "topic": "Mandal",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 24,
+      "question": "Which amendment added SC/ST reservation in promotions as described in the PDF?",
+      "options": {
+        "A": "77th",
+        "B": "81st",
+        "C": "85th",
+        "D": "103rd"
+      },
+      "answer": "A",
+      "correct_option": "77th",
+      "explanation": "The PDF states the 77th Amendment added the relevant provision under Article 16.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "77 = promotion",
+      "topic": "Article 16",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 25,
+      "question": "Which amendment dealt with backlog reserved vacancies as a separate class?",
+      "options": {
+        "A": "76th",
+        "B": "77th",
+        "C": "81st",
+        "D": "85th"
+      },
+      "answer": "C",
+      "correct_option": "81st",
+      "explanation": "The PDF identifies the 81st Amendment Act, 2000.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is C.",
+        "B": "Incorrect. The correct answer is C.",
+        "C": "Correct. C is correct.",
+        "D": "Incorrect. The correct answer is C."
+      },
+      "upsc_trap": "C is correct.",
+      "memory_hook": "81 = backlog",
+      "topic": "Article 16",
+      "difficulty": "Easy",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 26,
+      "question": "Article 17 abolishes:",
+      "options": {
+        "A": "Titles",
+        "B": "Untouchability",
+        "C": "Forced labour",
+        "D": "Preventive detention"
+      },
+      "answer": "B",
+      "correct_option": "Untouchability",
+      "explanation": "Article 17 abolishes untouchability and forbids its practice in any form.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "17 = untouchability",
+      "topic": "Article 17",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 27,
+      "question": "According to the PDF, Article 17 can operate against:",
+      "options": {
+        "A": "Only State",
+        "B": "Private individuals as well as State obligation",
+        "C": "Only courts",
+        "D": "Only foreigners"
+      },
+      "answer": "B",
+      "correct_option": "Private individuals as well as State obligation",
+      "explanation": "The PDF states the right is available against private individuals and requires State action to protect it.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "17 reaches private persons",
+      "topic": "Article 17",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 28,
+      "question": "Article 18 prohibits State-conferred titles except:",
+      "options": {
+        "A": "Political titles",
+        "B": "Military or academic distinctions",
+        "C": "Hereditary titles only",
+        "D": "Foreign titles"
+      },
+      "answer": "B",
+      "correct_option": "Military or academic distinctions",
+      "explanation": "Military and academic distinctions are the stated exceptions.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "18 = no titles, except military/academic",
+      "topic": "Article 18",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 29,
+      "question": "How many rights are currently protected under Article 19?",
+      "options": {
+        "A": "Five",
+        "B": "Six",
+        "C": "Seven",
+        "D": "Eight"
+      },
+      "answer": "B",
+      "correct_option": "Six",
+      "explanation": "The PDF says the original seven became six after removal of property.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "19 = six freedoms",
+      "topic": "Article 19",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 30,
+      "question": "Which is NOT an Article 19 freedom?",
+      "options": {
+        "A": "Speech and expression",
+        "B": "Peaceful assembly without arms",
+        "C": "Freedom of religion",
+        "D": "Freedom of movement"
+      },
+      "answer": "C",
+      "correct_option": "Freedom of religion",
+      "explanation": "Religion is covered by Articles 25–28, not Article 19.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is C.",
+        "B": "Incorrect. The correct answer is C.",
+        "C": "Correct. C is correct.",
+        "D": "Incorrect. The correct answer is C."
+      },
+      "upsc_trap": "C is correct.",
+      "memory_hook": "19 six; 25 religion",
+      "topic": "Article 19",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 31,
+      "question": "Article 19 freedom of assembly requires assembly to be:",
+      "options": {
+        "A": "Peaceful and without arms",
+        "B": "Armed",
+        "C": "Secret",
+        "D": "Only indoor"
+      },
+      "answer": "A",
+      "correct_option": "Peaceful and without arms",
+      "explanation": "The PDF states the right is to assemble peaceably and without arms.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Assembly = peaceful + unarmed",
+      "topic": "Article 19",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 32,
+      "question": "Which is NOT a listed Article 19(2) speech-restriction ground in the PDF?",
+      "options": {
+        "A": "Defamation",
+        "B": "Contempt of court",
+        "C": "Friendly relations with foreign states",
+        "D": "Residence"
+      },
+      "answer": "D",
+      "correct_option": "Residence",
+      "explanation": "Residence is not listed among the speech-restriction grounds.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is D.",
+        "B": "Incorrect. The correct answer is D.",
+        "C": "Incorrect. The correct answer is D.",
+        "D": "Correct. D is correct."
+      },
+      "upsc_trap": "D is correct.",
+      "memory_hook": "Do not import Article 16/19(5) grounds into speech",
+      "topic": "Article 19",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 33,
+      "question": "The Article 19 movement right primarily protects:",
+      "options": {
+        "A": "Internal movement within India",
+        "B": "Only travel abroad",
+        "C": "Only foreign travel",
+        "D": "Only movement between districts"
+      },
+      "answer": "A",
+      "correct_option": "Internal movement within India",
+      "explanation": "The PDF distinguishes internal movement under Article 19 from travel abroad under Article 21.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "19 = inside; 21 = abroad",
+      "topic": "Article 19",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 34,
+      "question": "The State may prescribe professional/technical qualifications under:",
+      "options": {
+        "A": "Freedom of profession",
+        "B": "Freedom of religion",
+        "C": "Article 20",
+        "D": "Article 22"
+      },
+      "answer": "A",
+      "correct_option": "Freedom of profession",
+      "explanation": "The PDF expressly allows qualifications for professions under Article 19.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Profession = qualification",
+      "topic": "Article 19",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 35,
+      "question": "Article 20 contains which three protections?",
+      "options": {
+        "A": "Ex-post-facto, double jeopardy, self-incrimination",
+        "B": "Equality, liberty, religion",
+        "C": "Speech, assembly, association",
+        "D": "Arrest, detention, bail"
+      },
+      "answer": "A",
+      "correct_option": "Ex-post-facto, double jeopardy, self-incrimination",
+      "explanation": "These are the three Article 20 protections listed in the PDF.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "20 = Ex-post + Double + Self",
+      "topic": "Article 20",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 36,
+      "question": "Article 20's ex-post-facto protection applies to:",
+      "options": {
+        "A": "Criminal laws",
+        "B": "All civil laws",
+        "C": "All tax laws",
+        "D": "Only administrative orders"
+      },
+      "answer": "A",
+      "correct_option": "Criminal laws",
+      "explanation": "The PDF says the prohibition applies to criminal laws, not civil or tax laws.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "20 criminal only",
+      "topic": "Article 20",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 37,
+      "question": "Double jeopardy protection is described as applying to proceedings before:",
+      "options": {
+        "A": "Any department",
+        "B": "A court or judicial tribunal",
+        "C": "A private employer",
+        "D": "Parliament"
+      },
+      "answer": "B",
+      "correct_option": "A court or judicial tribunal",
+      "explanation": "The PDF limits the protection to judicial proceedings/tribunals, not departmental proceedings.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Double jeopardy = judicial proceeding",
+      "topic": "Article 20",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 38,
+      "question": "Which is NOT excluded from Article 20 self-incrimination protection according to the PDF?",
+      "options": {
+        "A": "Thumb impression",
+        "B": "Blood specimen",
+        "C": "Oral evidence",
+        "D": "Compulsory material object"
+      },
+      "answer": "C",
+      "correct_option": "Oral evidence",
+      "explanation": "The PDF says protection extends to oral and documentary evidence, but not the listed physical evidence/samples.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is C.",
+        "B": "Incorrect. The correct answer is C.",
+        "C": "Correct. C is correct.",
+        "D": "Incorrect. The correct answer is C."
+      },
+      "upsc_trap": "C is correct.",
+      "memory_hook": "Self-incrimination = testimonial, not physical samples",
+      "topic": "Article 20",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 39,
+      "question": "Article 21 is available to:",
+      "options": {
+        "A": "Citizens only",
+        "B": "Citizens and non-citizens",
+        "C": "Foreigners only",
+        "D": "Companies only"
+      },
+      "answer": "B",
+      "correct_option": "Citizens and non-citizens",
+      "explanation": "The PDF expressly states Article 21 applies to citizens and non-citizens.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "21 = every person",
+      "topic": "Article 21",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 40,
+      "question": "Which case is described as the narrow Article 21 interpretation?",
+      "options": {
+        "A": "Maneka Gandhi",
+        "B": "A.K. Gopalan",
+        "C": "Kesavananda",
+        "D": "Mandal"
+      },
+      "answer": "B",
+      "correct_option": "A.K. Gopalan",
+      "explanation": "The PDF describes A.K. Gopalan (1950) as the narrow interpretation.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Gopalan = narrow",
+      "topic": "Article 21",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 41,
+      "question": "Which case expanded Article 21 to require fair, reasonable and just procedure?",
+      "options": {
+        "A": "Gopalan",
+        "B": "Maneka Gandhi",
+        "C": "Indra Sawhney",
+        "D": "I.R. Coelho"
+      },
+      "answer": "B",
+      "correct_option": "Maneka Gandhi",
+      "explanation": "The PDF attributes the wider interpretation to Maneka Gandhi (1978).",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Maneka = fair, just, reasonable",
+      "topic": "Article 21",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 42,
+      "question": "Which is NOT listed in the PDF as an Article 21 right?",
+      "options": {
+        "A": "Privacy",
+        "B": "Livelihood",
+        "C": "Speedy trial",
+        "D": "Right to strike"
+      },
+      "answer": "D",
+      "correct_option": "Right to strike",
+      "explanation": "The PDF lists privacy, livelihood and speedy trial but not a right to strike.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is D.",
+        "B": "Incorrect. The correct answer is D.",
+        "C": "Incorrect. The correct answer is D.",
+        "D": "Correct. D is correct."
+      },
+      "upsc_trap": "D is correct.",
+      "memory_hook": "Article 21 expands to meaningful life, not every claim",
+      "topic": "Article 21",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 43,
+      "question": "Article 21A covers children aged:",
+      "options": {
+        "A": "0–6",
+        "B": "6–14",
+        "C": "14–18",
+        "D": "6–18"
+      },
+      "answer": "B",
+      "correct_option": "6–14",
+      "explanation": "The PDF states free and compulsory education for ages six to fourteen.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "21A = 6 to 14",
+      "topic": "Article 21A",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 44,
+      "question": "Which amendment inserted Article 21A?",
+      "options": {
+        "A": "44th",
+        "B": "73rd",
+        "C": "86th",
+        "D": "103rd"
+      },
+      "answer": "C",
+      "correct_option": "86th",
+      "explanation": "The PDF identifies the 86th Amendment Act, 2002.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is C.",
+        "B": "Incorrect. The correct answer is C.",
+        "C": "Correct. C is correct.",
+        "D": "Incorrect. The correct answer is C."
+      },
+      "upsc_trap": "C is correct.",
+      "memory_hook": "86 = education",
+      "topic": "Article 21A",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 45,
+      "question": "Under ordinary-law Article 22 safeguards, production before a magistrate is within:",
+      "options": {
+        "A": "12 hours",
+        "B": "24 hours including journey time",
+        "C": "48 hours",
+        "D": "72 hours"
+      },
+      "answer": "B",
+      "correct_option": "24 hours including journey time",
+      "explanation": "The PDF states 24 hours including journey time.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "22 = magistrate within 24",
+      "topic": "Article 22",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 46,
+      "question": "Preventive detention primarily aims to:",
+      "options": {
+        "A": "Punish after conviction",
+        "B": "Prevent an anticipated future offence",
+        "C": "Collect taxes",
+        "D": "Enforce contracts"
+      },
+      "answer": "B",
+      "correct_option": "Prevent an anticipated future offence",
+      "explanation": "The PDF describes preventive detention as a precautionary measure, not punishment after conviction.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Preventive = prevent future",
+      "topic": "Article 22",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 47,
+      "question": "The period stated as continuing in the PDF before advisory-board review is:",
+      "options": {
+        "A": "One month",
+        "B": "Two months",
+        "C": "Three months",
+        "D": "Six months"
+      },
+      "answer": "C",
+      "correct_option": "Three months",
+      "explanation": "The PDF says the 44th Amendment reduced the period to two months, but that change had not been brought into force, so three months continued.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is C.",
+        "B": "Incorrect. The correct answer is C.",
+        "C": "Correct. C is correct according to the PDF.",
+        "D": "Incorrect. The correct answer is C."
+      },
+      "upsc_trap": "C is correct according to the PDF.",
+      "memory_hook": "22 = 3 months in the chapter's stated operative position",
+      "topic": "Article 22",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 48,
+      "question": "Article 23 prohibits:",
+      "options": {
+        "A": "Traffic in human beings, begar and forced labour",
+        "B": "Only child labour",
+        "C": "Only religious conversion",
+        "D": "Only detention"
+      },
+      "answer": "A",
+      "correct_option": "Traffic in human beings, begar and forced labour",
+      "explanation": "The PDF lists traffic in human beings, begar and similar forced labour.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "23 = traffic + forced labour",
+      "topic": "Article 23",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 49,
+      "question": "Article 23 protects against:",
+      "options": {
+        "A": "Only State",
+        "B": "State and private persons",
+        "C": "Only employers",
+        "D": "Only foreigners"
+      },
+      "answer": "B",
+      "correct_option": "State and private persons",
+      "explanation": "The PDF expressly says it protects individuals against State and private persons.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "23 reaches private persons",
+      "topic": "Article 23",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 50,
+      "question": "Begar means:",
+      "options": {
+        "A": "Paid service",
+        "B": "Compulsory work without remuneration",
+        "C": "Religious service",
+        "D": "Military promotion"
+      },
+      "answer": "B",
+      "correct_option": "Compulsory work without remuneration",
+      "explanation": "The PDF defines begar as compulsory work without remuneration.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Begar = forced work without pay",
+      "topic": "Article 23",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 51,
+      "question": "Article 24 prohibits employment of children below 14 in:",
+      "options": {
+        "A": "Every harmless activity",
+        "B": "Factories, mines and other hazardous activities described",
+        "C": "Only government work",
+        "D": "Only farms"
+      },
+      "answer": "B",
+      "correct_option": "Factories, mines and other hazardous activities described",
+      "explanation": "The PDF describes the prohibition in factories, mines and other hazardous activities.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "24 = under 14 + hazardous work",
+      "topic": "Article 24",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 52,
+      "question": "Article 25 is available to:",
+      "options": {
+        "A": "Citizens only",
+        "B": "All persons",
+        "C": "Religious denominations only",
+        "D": "Minorities only"
+      },
+      "answer": "B",
+      "correct_option": "All persons",
+      "explanation": "The PDF says Article 25 rights are available to citizens and non-citizens.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "25 = person; 26 = denomination",
+      "topic": "Article 25",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 53,
+      "question": "Propagation under Article 25 does NOT include:",
+      "options": {
+        "A": "Disseminating one's beliefs",
+        "B": "Explaining religious tenets",
+        "C": "A right to forcibly convert another person",
+        "D": "Professing belief"
+      },
+      "answer": "C",
+      "correct_option": "A right to forcibly convert another person",
+      "explanation": "The PDF expressly says propagation does not include a right to force conversion.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is C.",
+        "B": "Incorrect. The correct answer is C.",
+        "C": "Correct. C is correct.",
+        "D": "Incorrect. The correct answer is C."
+      },
+      "upsc_trap": "C is correct.",
+      "memory_hook": "Propagate ≠ forcibly convert",
+      "topic": "Article 25",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 54,
+      "question": "Article 25 is subject to:",
+      "options": {
+        "A": "Public order, morality, health and relevant Fundamental Rights provisions",
+        "B": "No restriction",
+        "C": "Only tax law",
+        "D": "Only Parliament's approval"
+      },
+      "answer": "A",
+      "correct_option": "Public order, morality, health and relevant Fundamental Rights provisions",
+      "explanation": "The PDF lists public order, morality, health and other relevant FR provisions.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "25 = freedom under limits",
+      "topic": "Article 25",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 55,
+      "question": "Article 26 protects the rights of:",
+      "options": {
+        "A": "Individual citizens only",
+        "B": "Religious denominations or sections",
+        "C": "Only foreigners",
+        "D": "Only State institutions"
+      },
+      "answer": "B",
+      "correct_option": "Religious denominations or sections",
+      "explanation": "Article 26 concerns collective freedom of religious denominations.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "26 = collective religion",
+      "topic": "Article 26",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 56,
+      "question": "Which is NOT an Article 26 right listed in the PDF?",
+      "options": {
+        "A": "Establish/maintain religious institutions",
+        "B": "Manage religious affairs",
+        "C": "Own/acquire property",
+        "D": "Compel State promotion of denomination"
+      },
+      "answer": "D",
+      "correct_option": "Compel State promotion of denomination",
+      "explanation": "The four listed rights concern institutions, management, property ownership/acquisition and administration.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is D.",
+        "B": "Incorrect. The correct answer is D.",
+        "C": "Incorrect. The correct answer is D.",
+        "D": "Correct. D is correct."
+      },
+      "upsc_trap": "D is correct.",
+      "memory_hook": "26 = establish, manage, own, administer",
+      "topic": "Article 26",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 57,
+      "question": "Article 27 prohibits compulsory payment of:",
+      "options": {
+        "A": "Any fee",
+        "B": "Taxes for promotion/maintenance of a particular religion",
+        "C": "All taxes",
+        "D": "Only customs duties"
+      },
+      "answer": "B",
+      "correct_option": "Taxes for promotion/maintenance of a particular religion",
+      "explanation": "Article 27 prohibits taxes for promotion or maintenance of a particular religion or denomination.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "27 = tax for particular religion",
+      "topic": "Article 27",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 58,
+      "question": "Which distinction under Article 27 is stated in the PDF?",
+      "options": {
+        "A": "Tax prohibited; regulatory fee may be levied",
+        "B": "All fees prohibited",
+        "C": "All taxes permitted",
+        "D": "Only pilgrimage tax prohibited"
+      },
+      "answer": "A",
+      "correct_option": "Tax prohibited; regulatory fee may be levied",
+      "explanation": "The PDF says Article 27 prohibits a tax, not a fee used for secular regulation/services.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "27: tax no, regulatory fee yes",
+      "topic": "Article 27",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 59,
+      "question": "Under Article 28, religious instruction is completely prohibited in:",
+      "options": {
+        "A": "Institutions wholly maintained by State funds",
+        "B": "All aided institutions",
+        "C": "All recognised institutions",
+        "D": "All trust institutions"
+      },
+      "answer": "A",
+      "correct_option": "Institutions wholly maintained by State funds",
+      "explanation": "The PDF says wholly State-maintained institutions cannot provide religious instruction.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "28(1) wholly State-maintained = no instruction",
+      "topic": "Article 28",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 60,
+      "question": "Article 29 protects a section of citizens having a distinct:",
+      "options": {
+        "A": "Language, script or culture",
+        "B": "Tax status",
+        "C": "Political party",
+        "D": "Occupation"
+      },
+      "answer": "A",
+      "correct_option": "Language, script or culture",
+      "explanation": "The PDF lists language, script and culture.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "29 = language + script + culture",
+      "topic": "Article 29",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 61,
+      "question": "Article 29 is not necessarily limited to minorities because it uses:",
+      "options": {
+        "A": "Religious denomination",
+        "B": "Section of citizens",
+        "C": "Foreign citizens",
+        "D": "State authority"
+      },
+      "answer": "B",
+      "correct_option": "Section of citizens",
+      "explanation": "The PDF says 'section of citizens' can include majority as well as minority sections.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "29 = section, not only minority",
+      "topic": "Article 29",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 62,
+      "question": "Article 30 protects minorities' right to:",
+      "options": {
+        "A": "Establish and administer educational institutions of their choice",
+        "B": "Create a separate State",
+        "C": "Avoid every general law",
+        "D": "Claim all taxes back"
+      },
+      "answer": "A",
+      "correct_option": "Establish and administer educational institutions of their choice",
+      "explanation": "Article 30 concerns establishment and administration of minority educational institutions.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "30 = minority educational institutions",
+      "topic": "Article 30",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 63,
+      "question": "Which distinction is correct?",
+      "options": {
+        "A": "Article 29 is only minorities; Article 30 all citizens",
+        "B": "Article 29 uses section of citizens; Article 30 specifically protects religious and linguistic minorities",
+        "C": "Both are identical",
+        "D": "Article 30 concerns language only"
+      },
+      "answer": "B",
+      "correct_option": "Article 29 uses section of citizens; Article 30 specifically protects religious and linguistic minorities",
+      "explanation": "The PDF makes this exact distinction.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "29 = section; 30 = minorities",
+      "topic": "Articles 29–30",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 64,
+      "question": "Article 32 provides:",
+      "options": {
+        "A": "A guaranteed right to move the Supreme Court for enforcement of Fundamental Rights",
+        "B": "Only civil appeals",
+        "C": "Only tax remedies",
+        "D": "Only High Court jurisdiction"
+      },
+      "answer": "A",
+      "correct_option": "A guaranteed right to move the Supreme Court for enforcement of Fundamental Rights",
+      "explanation": "The PDF calls the right to move the Supreme Court under Article 32 itself a Fundamental Right.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "32 = remedy itself is a FR",
+      "topic": "Article 32",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 65,
+      "question": "Dr Ambedkar called Article 32 the:",
+      "options": {
+        "A": "Federal key",
+        "B": "Heart and soul of the Constitution",
+        "C": "Emergency clause",
+        "D": "Finance article"
+      },
+      "answer": "B",
+      "correct_option": "Heart and soul of the Constitution",
+      "explanation": "The PDF records Ambedkar's description of Article 32 as the heart and soul of the Constitution.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "32 = heart & soul",
+      "topic": "Article 32",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 66,
+      "question": "Article 32 can be invoked when there is:",
+      "options": {
+        "A": "Any ordinary dispute",
+        "B": "Violation of a Fundamental Right",
+        "C": "Only a tax dispute",
+        "D": "Only a private contract"
+      },
+      "answer": "B",
+      "correct_option": "Violation of a Fundamental Right",
+      "explanation": "The PDF says violation of a Fundamental Right is the sine qua non for Article 32.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "32 needs FR violation",
+      "topic": "Article 32",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 67,
+      "question": "Which writ means 'to have the body of'?",
+      "options": {
+        "A": "Mandamus",
+        "B": "Habeas corpus",
+        "C": "Prohibition",
+        "D": "Quo-warranto"
+      },
+      "answer": "B",
+      "correct_option": "Habeas corpus",
+      "explanation": "Habeas corpus is used against unlawful detention and literally means 'to have the body of'.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Habeas = body",
+      "topic": "Writs",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 68,
+      "question": "Which writ means 'we command'?",
+      "options": {
+        "A": "Mandamus",
+        "B": "Certiorari",
+        "C": "Prohibition",
+        "D": "Habeas corpus"
+      },
+      "answer": "A",
+      "correct_option": "Mandamus",
+      "explanation": "Mandamus commands a public authority to perform its official duty.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Mandamus = command",
+      "topic": "Writs",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 69,
+      "question": "Which writ prevents a lower court/tribunal from exceeding jurisdiction?",
+      "options": {
+        "A": "Certiorari",
+        "B": "Prohibition",
+        "C": "Habeas corpus",
+        "D": "Quo-warranto"
+      },
+      "answer": "B",
+      "correct_option": "Prohibition",
+      "explanation": "Prohibition is preventive and stops a lower judicial/quasi-judicial authority from exceeding jurisdiction.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Prohibition = prevent",
+      "topic": "Writs",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 70,
+      "question": "Which writ is both preventive and curative according to the PDF?",
+      "options": {
+        "A": "Certiorari",
+        "B": "Mandamus",
+        "C": "Habeas corpus",
+        "D": "Quo-warranto"
+      },
+      "answer": "A",
+      "correct_option": "Certiorari",
+      "explanation": "The PDF contrasts certiorari with prohibition and describes certiorari as preventive and curative.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Certiorari = correct/erase order",
+      "topic": "Writs",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 71,
+      "question": "Quo-warranto challenges:",
+      "options": {
+        "A": "Illegal occupation of a substantive public office",
+        "B": "Private detention",
+        "C": "Tax collection",
+        "D": "A parliamentary vote"
+      },
+      "answer": "A",
+      "correct_option": "Illegal occupation of a substantive public office",
+      "explanation": "It asks by what authority a person holds a public office.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Quo = what authority?",
+      "topic": "Writs",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 72,
+      "question": "Which writ can be sought by an interested person, not necessarily the aggrieved person?",
+      "options": {
+        "A": "Mandamus",
+        "B": "Habeas corpus",
+        "C": "Quo-warranto",
+        "D": "Certiorari"
+      },
+      "answer": "C",
+      "correct_option": "Quo-warranto",
+      "explanation": "The PDF expressly states this for quo-warranto.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is C.",
+        "B": "Incorrect. The correct answer is C.",
+        "C": "Correct. C is correct.",
+        "D": "Incorrect. The correct answer is C."
+      },
+      "upsc_trap": "C is correct.",
+      "memory_hook": "Quo-warranto = public-office challenge",
+      "topic": "Writs",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 73,
+      "question": "Which is the key difference between Articles 32 and 226?",
+      "options": {
+        "A": "SC under 32: FR only; HC under 226: FR plus other legal purposes",
+        "B": "Both only FR",
+        "C": "HC cannot issue writs",
+        "D": "Article 32 is discretionary"
+      },
+      "answer": "A",
+      "correct_option": "SC under 32: FR only; HC under 226: FR plus other legal purposes",
+      "explanation": "The PDF states the Supreme Court's Article 32 writ jurisdiction is narrower in subject matter than Article 226.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "32 = FR; 226 = FR + other purpose",
+      "topic": "Writ jurisdiction",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 74,
+      "question": "Which remedy is discretionary according to the PDF?",
+      "options": {
+        "A": "Article 32",
+        "B": "Article 226",
+        "C": "Both are identical",
+        "D": "Neither"
+      },
+      "answer": "B",
+      "correct_option": "Article 226",
+      "explanation": "The PDF says Article 226 is discretionary, while Article 32 is itself a Fundamental Right.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "226 = broader but discretionary",
+      "topic": "Writ jurisdiction",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 75,
+      "question": "Article 33 empowers Parliament to restrict Fundamental Rights of:",
+      "options": {
+        "A": "Specified armed/police/intelligence and analogous forces",
+        "B": "All citizens",
+        "C": "All foreigners",
+        "D": "Only judges"
+      },
+      "answer": "A",
+      "correct_option": "Specified armed/police/intelligence and analogous forces",
+      "explanation": "Article 33 concerns specified forces and services to maintain discipline and proper discharge of duties.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "33 = forces + discipline",
+      "topic": "Article 33",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 76,
+      "question": "Who alone can legislate under Article 33?",
+      "options": {
+        "A": "State legislatures",
+        "B": "Parliament",
+        "C": "Governor",
+        "D": "High Courts"
+      },
+      "answer": "B",
+      "correct_option": "Parliament",
+      "explanation": "The PDF expressly says the power is conferred only on Parliament.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "33 = Parliament only",
+      "topic": "Article 33",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 77,
+      "question": "Martial law under Article 34 is described as:",
+      "options": {
+        "A": "Identical to national emergency",
+        "B": "Military rule/extraordinary military administration in an area",
+        "C": "A tax emergency",
+        "D": "A state reorganisation process"
+      },
+      "answer": "B",
+      "correct_option": "Military rule/extraordinary military administration in an area",
+      "explanation": "The PDF describes martial law as military rule and distinguishes it from national emergency.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "34 = martial law",
+      "topic": "Article 34",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 78,
+      "question": "Article 35 gives Parliament exclusive power over certain matters mainly to ensure:",
+      "options": {
+        "A": "Uniformity in specified Fundamental Rights matters",
+        "B": "More state taxation",
+        "C": "State independence",
+        "D": "Abolition of judicial review"
+      },
+      "answer": "A",
+      "correct_option": "Uniformity in specified Fundamental Rights matters",
+      "explanation": "The PDF says Article 35 ensures uniformity and gives Parliament specified exclusive legislative powers.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "35 = Parliament + uniformity",
+      "topic": "Article 35",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 79,
+      "question": "Which is a Parliament-only Article 35 matter listed in the PDF?",
+      "options": {
+        "A": "Prescribing residence for certain public employment",
+        "B": "All local taxes",
+        "C": "All education",
+        "D": "All police powers"
+      },
+      "answer": "A",
+      "correct_option": "Prescribing residence for certain public employment",
+      "explanation": "Prescribing residence for certain employment is expressly listed.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "35 = specified FR legislation",
+      "topic": "Article 35",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 80,
+      "question": "Right to Property is currently protected under:",
+      "options": {
+        "A": "Article 19(1)(f)",
+        "B": "Article 31",
+        "C": "Article 300-A",
+        "D": "Article 32"
+      },
+      "answer": "C",
+      "correct_option": "Article 300-A",
+      "explanation": "The PDF says Article 300-A protects property after the 44th Amendment removed Articles 19(1)(f) and 31 from Part III.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is C.",
+        "B": "Incorrect. The correct answer is C.",
+        "C": "Correct. C is correct.",
+        "D": "Incorrect. The correct answer is C."
+      },
+      "upsc_trap": "C is correct.",
+      "memory_hook": "300-A = property",
+      "topic": "Property",
+      "difficulty": "Medium",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 81,
+      "question": "Can a property-right violation directly invoke Article 32 according to the PDF?",
+      "options": {
+        "A": "Yes",
+        "B": "No; Article 226 is available",
+        "C": "Only if Parliament agrees",
+        "D": "Only during emergency"
+      },
+      "answer": "B",
+      "correct_option": "No; Article 226 is available",
+      "explanation": "The PDF says property is not a Fundamental Right and Article 32 cannot directly enforce it; Article 226 can be used.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "300-A ≠ Article 32",
+      "topic": "Property",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 82,
+      "question": "Article 31A protects specified laws from challenge under:",
+      "options": {
+        "A": "Articles 14 and 19",
+        "B": "Articles 25 and 26",
+        "C": "Article 32 only",
+        "D": "Article 21 only"
+      },
+      "answer": "A",
+      "correct_option": "Articles 14 and 19",
+      "explanation": "The PDF states Article 31A saves five categories from challenge on Articles 14 and 19 grounds.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "31A = 14 + 19",
+      "topic": "Article 31A",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 83,
+      "question": "Article 31B is associated with:",
+      "options": {
+        "A": "Ninth Schedule",
+        "B": "Tenth Schedule",
+        "C": "Article 21A",
+        "D": "EWS"
+      },
+      "answer": "A",
+      "correct_option": "Ninth Schedule",
+      "explanation": "The PDF links Article 31B to the Ninth Schedule.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "31B = Ninth Schedule",
+      "topic": "Article 31B",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 84,
+      "question": "Which case rejected blanket immunity for Ninth Schedule laws?",
+      "options": {
+        "A": "I.R. Coelho",
+        "B": "A.K. Gopalan",
+        "C": "Mandal",
+        "D": "Balaji Raghavan"
+      },
+      "answer": "A",
+      "correct_option": "I.R. Coelho",
+      "explanation": "The PDF identifies I.R. Coelho (2007) as limiting Ninth Schedule immunity.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Coelho = Ninth Schedule review",
+      "topic": "Article 31B",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 85,
+      "question": "The 1973 date significant for Ninth Schedule review in the PDF is associated with:",
+      "options": {
+        "A": "Kesavananda Bharati",
+        "B": "Maneka Gandhi",
+        "C": "Mandal",
+        "D": "Minerva Mills"
+      },
+      "answer": "A",
+      "correct_option": "Kesavananda Bharati",
+      "explanation": "April 24, 1973 is identified as the Kesavananda Bharati basic-structure date.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "24 April 1973 = basic structure",
+      "topic": "Cases",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 86,
+      "question": "Article 31C, as originally described, protects laws implementing:",
+      "options": {
+        "A": "Article 39(b) and 39(c)",
+        "B": "All DPSPs",
+        "C": "Only Article 21",
+        "D": "Only Fundamental Duties"
+      },
+      "answer": "A",
+      "correct_option": "Article 39(b) and 39(c)",
+      "explanation": "The PDF states the original protection concerned Article 39(b) and (c).",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "31C = 39(b),(c)",
+      "topic": "Article 31C",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 87,
+      "question": "Which case invalidated the 42nd Amendment's expansion of Article 31C to all DPSPs?",
+      "options": {
+        "A": "Minerva Mills",
+        "B": "I.R. Coelho",
+        "C": "Gopalan",
+        "D": "Indra Sawhney"
+      },
+      "answer": "A",
+      "correct_option": "Minerva Mills",
+      "explanation": "The PDF says Minerva Mills (1980) invalidated that expansion.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Minerva = 31C expansion struck",
+      "topic": "Article 31C",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 88,
+      "question": "Which is a criticism of Fundamental Rights listed in the PDF?",
+      "options": {
+        "A": "Excessive limitations",
+        "B": "Complete absence of restrictions",
+        "C": "No judicial role",
+        "D": "They are entirely social-economic"
+      },
+      "answer": "A",
+      "correct_option": "Excessive limitations",
+      "explanation": "The PDF lists excessive limitations among criticisms.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Criticism = limits and gaps",
+      "topic": "Criticism",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 89,
+      "question": "Which is NOT listed as a significance of Fundamental Rights?",
+      "options": {
+        "A": "Strengthening secular fabric",
+        "B": "Protecting minorities and weaker sections",
+        "C": "Establishing monarchy",
+        "D": "Checking government absolutism"
+      },
+      "answer": "C",
+      "correct_option": "Establishing monarchy",
+      "explanation": "The PDF lists democracy, liberty, secularism, minority protection, social justice and limits on government, not monarchy.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is C.",
+        "B": "Incorrect. The correct answer is C.",
+        "C": "Correct. C is correct.",
+        "D": "Incorrect. The correct answer is C."
+      },
+      "upsc_trap": "C is correct.",
+      "memory_hook": "FR support democracy",
+      "topic": "Significance",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 90,
+      "question": "Which is a right outside Part III identified in the PDF?",
+      "options": {
+        "A": "Article 265—tax only by authority of law",
+        "B": "Article 14—equality",
+        "C": "Article 19—speech",
+        "D": "Article 32—remedy"
+      },
+      "answer": "A",
+      "correct_option": "Article 265—tax only by authority of law",
+      "explanation": "The PDF lists Articles 265, 300-A and 301 as non-Fundamental constitutional/legal rights.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Outside Part III = 265, 300-A, 301",
+      "topic": "Rights outside Part III",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 91,
+      "question": "Which statement best integrates Articles 14, 19 and 21 according to the PDF?",
+      "options": {
+        "A": "14 applies to all persons; 19's six freedoms are citizen-specific; 21 protects citizens and non-citizens",
+        "B": "All three only citizens",
+        "C": "All three only foreigners",
+        "D": "14 and 21 only State employees"
+      },
+      "answer": "A",
+      "correct_option": "14 applies to all persons; 19's six freedoms are citizen-specific; 21 protects citizens and non-citizens",
+      "explanation": "This follows the beneficiary classifications in the PDF.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "14 all / 19 citizens / 21 all persons",
+      "topic": "Integrated",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 92,
+      "question": "Which amendment mapping is correct?",
+      "options": {
+        "A": "44th—property removed; 86th—Article 21A; 103rd—EWS; 77th—SC/ST promotion reservation",
+        "B": "44th—EWS; 86th—property; 103rd—Mandal; 77th—education",
+        "C": "All four are wrong",
+        "D": "Only 103rd is correct"
+      },
+      "answer": "A",
+      "correct_option": "44th—property removed; 86th—Article 21A; 103rd—EWS; 77th—SC/ST promotion reservation",
+      "explanation": "All four mappings are explicitly discussed in the PDF.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "44 property; 86 education; 103 EWS; 77 promotion",
+      "topic": "Amendments",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 93,
+      "question": "Which sequence correctly matches cases and themes?",
+      "options": {
+        "A": "Gopalan—narrow Article 21; Maneka—wider Article 21; Kesavananda—basic structure; Minerva Mills—31C expansion invalidated",
+        "B": "Gopalan—EWS; Maneka—Mandal; Kesavananda—Article 30; Minerva—Article 17",
+        "C": "All reversed",
+        "D": "None"
+      },
+      "answer": "A",
+      "correct_option": "Gopalan—narrow Article 21; Maneka—wider Article 21; Kesavananda—basic structure; Minerva Mills—31C expansion invalidated",
+      "explanation": "These case-theme links are given in the PDF.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Gopalan→Maneka; Kesavananda→Minerva",
+      "topic": "Cases",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 94,
+      "question": "Which comparison of Article 25 and 26 is correct?",
+      "options": {
+        "A": "25—individual religious freedom; 26—collective denomination rights",
+        "B": "25—denominations; 26—individuals",
+        "C": "Both only taxes",
+        "D": "Both only education"
+      },
+      "answer": "A",
+      "correct_option": "25—individual religious freedom; 26—collective denomination rights",
+      "explanation": "The PDF explicitly contrasts Article 25's individual rights with Article 26's collective denomination rights.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "25 person; 26 denomination",
+      "topic": "Religion",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 95,
+      "question": "Which comparison of Articles 29 and 30 is correct?",
+      "options": {
+        "A": "29—section of citizens; 30—religious/linguistic minorities",
+        "B": "29—only minorities; 30—all citizens",
+        "C": "29—tax; 30—property",
+        "D": "Both identical"
+      },
+      "answer": "A",
+      "correct_option": "29—section of citizens; 30—religious/linguistic minorities",
+      "explanation": "The PDF makes this distinction explicit.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "29 = section; 30 = minority institutions",
+      "topic": "Culture",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 96,
+      "question": "Which statement about Article 28 is correct?",
+      "options": {
+        "A": "Wholly State-maintained institutions cannot provide religious instruction; other categories have different rules",
+        "B": "All institutions are identical",
+        "C": "Aided institutions can never teach religion",
+        "D": "Trust institutions are always prohibited"
+      },
+      "answer": "A",
+      "correct_option": "Wholly State-maintained institutions cannot provide religious instruction; other categories have different rules",
+      "explanation": "The PDF distinguishes four institutional categories and their different rules.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Classify institution first",
+      "topic": "Article 28",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 97,
+      "question": "Which statement about Article 23 is correct?",
+      "options": {
+        "A": "It can protect against private persons and permits compulsory public service subject to the stated non-discrimination rule",
+        "B": "It applies only to State",
+        "C": "It permits slavery",
+        "D": "It covers only children"
+      },
+      "answer": "A",
+      "correct_option": "It can protect against private persons and permits compulsory public service subject to the stated non-discrimination rule",
+      "explanation": "The PDF gives both the horizontal protection and the public-service exception.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "23 = private protection + public-service exception",
+      "topic": "Article 23",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 98,
+      "question": "Which statement about Article 20 is correct?",
+      "options": {
+        "A": "It protects against ex-post-facto criminal punishment, double jeopardy and self-incrimination",
+        "B": "It applies only to citizens",
+        "C": "It prohibits all retrospective tax laws",
+        "D": "It protects only against preventive detention"
+      },
+      "answer": "A",
+      "correct_option": "It protects against ex-post-facto criminal punishment, double jeopardy and self-incrimination",
+      "explanation": "These are the three Article 20 protections in the PDF.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "20 = three protections",
+      "topic": "Article 20",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 99,
+      "question": "Which statement about Article 21 is most accurate according to the PDF?",
+      "options": {
+        "A": "After Maneka Gandhi, deprivation requires a procedure that is reasonable, fair and just",
+        "B": "Only physical survival is protected",
+        "C": "It applies only to citizens",
+        "D": "It protects only against executive action"
+      },
+      "answer": "A",
+      "correct_option": "After Maneka Gandhi, deprivation requires a procedure that is reasonable, fair and just",
+      "explanation": "The PDF describes the wider Maneka Gandhi interpretation and its dignity-based scope.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Maneka = fair + just + reasonable",
+      "topic": "Article 21",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 100,
+      "question": "Which statement about Article 32 is correct?",
+      "options": {
+        "A": "It is itself a Fundamental Right and is limited to enforcement of Fundamental Rights",
+        "B": "It enforces every statutory right directly",
+        "C": "It is discretionary like Article 226",
+        "D": "It can never be suspended under any constitutional provision"
+      },
+      "answer": "A",
+      "correct_option": "It is itself a Fundamental Right and is limited to enforcement of Fundamental Rights",
+      "explanation": "The PDF states Article 32 is itself a Fundamental Right and its scope is FR enforcement.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "32 = FR remedy; 226 = broader discretionary",
+      "topic": "Article 32",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 101,
+      "question": "Which statement about writ jurisdiction is correct?",
+      "options": {
+        "A": "SC under Article 32 is narrower in subject matter; HC under 226 can enforce FR and other legal rights",
+        "B": "HC has no writ power",
+        "C": "SC under 32 enforces every legal right",
+        "D": "Article 226 is itself a Fundamental Right"
+      },
+      "answer": "A",
+      "correct_option": "SC under Article 32 is narrower in subject matter; HC under 226 can enforce FR and other legal rights",
+      "explanation": "This is the PDF's comparison of Articles 32 and 226.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "32 narrow subject; 226 wider subject",
+      "topic": "Writs",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 102,
+      "question": "Which statement about Article 31B is safest after I.R. Coelho?",
+      "options": {
+        "A": "Ninth Schedule gives absolute immunity",
+        "B": "Post-24 April 1973 laws can be subject to judicial review on the grounds described in the PDF",
+        "C": "Ninth Schedule is outside the Constitution",
+        "D": "Every Ninth Schedule law is void"
+      },
+      "answer": "B",
+      "correct_option": "Post-24 April 1973 laws can be subject to judicial review on the grounds described in the PDF",
+      "explanation": "The PDF says there is no blanket immunity and discusses review of post-April 24, 1973 entries.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is B.",
+        "B": "Correct. B is correct.",
+        "C": "Incorrect. The correct answer is B.",
+        "D": "Incorrect. The correct answer is B."
+      },
+      "upsc_trap": "B is correct.",
+      "memory_hook": "Ninth Schedule ≠ absolute shield",
+      "topic": "Article 31B",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 103,
+      "question": "Which Article deals with legislation to give effect to specified Fundamental Rights provisions?",
+      "options": {
+        "A": "32",
+        "B": "33",
+        "C": "34",
+        "D": "35"
+      },
+      "answer": "D",
+      "correct_option": "35",
+      "explanation": "Article 35 concerns Parliament's specified legislative competence and punishment for certain FR offences.",
+      "option_analysis": {
+        "A": "Incorrect. The correct answer is D.",
+        "B": "Incorrect. The correct answer is D.",
+        "C": "Incorrect. The correct answer is D.",
+        "D": "Correct. D is correct."
+      },
+      "upsc_trap": "D is correct.",
+      "memory_hook": "35 = legislation to give effect",
+      "topic": "Article 35",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 104,
+      "question": "Which Article is correctly matched?",
+      "options": {
+        "A": "14—Equality; 17—Untouchability; 18—Titles",
+        "B": "14—Titles; 17—Religion; 18—Property",
+        "C": "19—Religion; 25—Public employment",
+        "D": "32—Child labour"
+      },
+      "answer": "A",
+      "correct_option": "14—Equality; 17—Untouchability; 18—Titles",
+      "explanation": "These article-subject mappings are directly given in the PDF's table.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "14 equality, 17 untouchability, 18 titles",
+      "topic": "Article map",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 105,
+      "question": "Which Article is correctly matched?",
+      "options": {
+        "A": "19—six freedoms; 20—conviction protections; 21—life/liberty; 22—arrest/detention",
+        "B": "19—religion; 20—education; 21—titles; 22—property",
+        "C": "19—property only; 20—tax; 21—religion; 22—titles",
+        "D": "All wrong"
+      },
+      "answer": "A",
+      "correct_option": "19—six freedoms; 20—conviction protections; 21—life/liberty; 22—arrest/detention",
+      "explanation": "The PDF's Article table gives this sequence.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "19-20-21-22 = freedom, conviction, life, arrest",
+      "topic": "Article map",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 106,
+      "question": "Which Article is correctly matched?",
+      "options": {
+        "A": "23—forced labour; 24—child employment; 25—religion; 26—religious affairs",
+        "B": "23—titles; 24—tax; 25—property; 26—education",
+        "C": "23—equality; 24—speech; 25—employment; 26—detention",
+        "D": "None"
+      },
+      "answer": "A",
+      "correct_option": "23—forced labour; 24—child employment; 25—religion; 26—religious affairs",
+      "explanation": "This follows the PDF's Articles 23–26 mapping.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "23-26 = exploitation → religion",
+      "topic": "Article map",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 107,
+      "question": "Which Article is correctly matched?",
+      "options": {
+        "A": "27—religious taxation; 28—religious instruction; 29—culture; 30—minority institutions",
+        "B": "27—education; 28—property; 29—tax; 30—arrest",
+        "C": "27—titles; 28—speech; 29—detention; 30—employment",
+        "D": "None"
+      },
+      "answer": "A",
+      "correct_option": "27—religious taxation; 28—religious instruction; 29—culture; 30—minority institutions",
+      "explanation": "The PDF's table and detailed discussion support this mapping.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "27 tax, 28 instruction, 29 culture, 30 minorities",
+      "topic": "Article map",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    },
+    {
+      "id": 108,
+      "question": "Which statement best reflects the PDF's overall philosophy of Fundamental Rights?",
+      "options": {
+        "A": "They balance individual liberty with social control and limit arbitrary State action",
+        "B": "They are unlimited",
+        "C": "They exist only for emergencies",
+        "D": "They remove all State authority"
+      },
+      "answer": "A",
+      "correct_option": "They balance individual liberty with social control and limit arbitrary State action",
+      "explanation": "The PDF explicitly describes this balancing function.",
+      "option_analysis": {
+        "A": "Correct. A is correct.",
+        "B": "Incorrect. The correct answer is A.",
+        "C": "Incorrect. The correct answer is A.",
+        "D": "Incorrect. The correct answer is A."
+      },
+      "upsc_trap": "A is correct.",
+      "memory_hook": "Fundamental ≠ absolute; liberty + social control",
+      "topic": "Overview",
+      "difficulty": "Hard",
+      "active_recall": true,
+      "source": "08 polity fundamental right.pdf",
+      "subject": "Polity",
+      "chapter": "Fundamental Rights"
+    }
+  ],
+  "id": "POLITY-CH07-UPSC-POV-AIR1",
+  "name": "Polity — Chapter 7: Fundamental Rights — UPSC POV (AIR 1)"
+}
