@@ -17,30 +17,53 @@ async function finish(){if(finishing)return;finishing=true;clearInterval(timer);
 async function bookmark(){let id=quiz[i].id;marks=marks.includes(id)?marks.filter(x=>x!==id):[...marks,id];await put('marks',marks);renderQ();render()}
 function revision(type){let q=all(),p=type==='wrong'?q.filter(x=>stats[x.id]?.wrong>0):type==='marked'?q.filter(x=>marks.includes(x.id)):q.filter(due);if(!p.length)return alert('Nothing to revise.');setup(p,type==='wrong'?'Wrong Questions':type==='marked'?'Bookmarks':'Due Review')}
 async function deleteChapter(s,c){
-  try{
-    const targets=banks.filter(b=>(b.subject||'General')===s&&(b.chapter||b.name)===c);
-    if(!targets.length){alert('This chapter/question bank could not be found.');return;}
-    const count=targets.reduce((n,b)=>n+(Array.isArray(b.questions)?b.questions.length:0),0);
-    const names=targets.map(b=>b.name||`${s} — ${c}`).join(', ');
-    const ok=window.confirm(`Delete this chapter/question bank?\\n\\n${names}\\n${count} questions\\n\\nThis removes it from this PWA only. Your original JSON/GitHub copy is not deleted.`);
-    if(!ok)return;
-    const ids=new Set(targets.flatMap(b=>(b.questions||[]).map(q=>q.id).filter(Boolean)));
-    banks=banks.filter(b=>!targets.includes(b));
-    ids.forEach(id=>{delete stats[id];marks=marks.filter(x=>x!==id)});
-    await put('banks',banks);
-    await put('stats',stats);
-    await put('marks',marks);
-    current=null;pool=[];quiz=[];wrong=[];
-    render();
-    show('home');
-    alert(`Deleted ${count} questions from ${c}.`);
-  }catch(e){
-    console.error('Delete failed:',e);
-    alert('Delete failed: '+(e?.message||e));
-  }
+  const targets=banks.filter(b=>(b.subject||'General')===s&&(b.chapter||b.name)===c);
+  if(!targets.length){showDeleteMessage('Delete failed','This chapter/question bank is no longer in local storage. Refresh the app and try again.');return;}
+  const count=targets.reduce((n,b)=>n+(Array.isArray(b.questions)?b.questions.length:0),0);
+  const names=targets.map(b=>b.name||`${s} — ${c}`).join(', ');
+  showDeleteConfirm(`${s} — ${c}`, count, async()=>{
+    try{
+      const ids=new Set(targets.flatMap(b=>(b.questions||[]).map(q=>q.id).filter(Boolean)));
+      const targetIds=new Set(targets.map(b=>b.id).filter(Boolean));
+      // Remove exactly the bank(s) represented by this chapter screen.
+      banks=banks.filter(b=>!targets.includes(b) && !targetIds.has(b.id));
+      const newStats={};
+      Object.keys(stats||{}).forEach(id=>{if(!ids.has(id))newStats[id]=stats[id]});
+      stats=newStats;
+      marks=(marks||[]).filter(id=>!ids.has(id));
+      // Save all related stores before changing screens.
+      await Promise.all([put('banks',banks),put('stats',stats),put('marks',marks)]);
+      current=null;pool=[];quiz=[];wrong=[];answered=false;finishing=false;
+      closeDeleteModal();
+      render();
+      show('home');
+      showDeleteMessage('Deleted successfully',`${names}\n\n${count} questions were removed from this PWA.\n\nYour original JSON file and GitHub copy are untouched.`);
+    }catch(e){
+      console.error('Delete failed:',e);
+      showDeleteMessage('Delete failed',`The bank could not be deleted.\n\n${e?.message||e}`);
+    }
+  });
 }
+function showDeleteConfirm(name,count,onConfirm){
+  closeDeleteModal();
+  const wrap=document.createElement('div');
+  wrap.id='deleteModal';
+  wrap.className='modalOverlay';
+  wrap.innerHTML=`<div class="modalCard"><h2>🗑 Delete Question Bank?</h2><p><b>${esc(name)}</b></p><p>${count} questions will be removed from this PWA.</p><p class="muted">Your original JSON/GitHub copy will NOT be deleted.</p><div class="modalActions"><button id="deleteConfirm" class="danger">Yes, Delete</button><button id="deleteCancel" class="secondary">Cancel</button></div></div>`;
+  document.body.appendChild(wrap);
+  $('deleteCancel').onclick=closeDeleteModal;
+  $('deleteConfirm').onclick=async()=>{const b=$('deleteConfirm');b.disabled=true;b.textContent='Deleting…';await onConfirm();};
+}
+function showDeleteMessage(title,msg){
+  closeDeleteModal();
+  const wrap=document.createElement('div');wrap.id='deleteModal';wrap.className='modalOverlay';
+  wrap.innerHTML=`<div class="modalCard"><h2>${esc(title)}</h2><p style="white-space:pre-line">${esc(msg)}</p><button id="deleteOk">OK</button></div>`;
+  document.body.appendChild(wrap);$('deleteOk').onclick=closeDeleteModal;
+}
+function closeDeleteModal(){const m=document.getElementById('deleteModal');if(m)m.remove();}
+
 async function importBank(file){try{let d=JSON.parse(await file.text());if(!Array.isArray(d.questions))throw Error('JSON must contain questions array.');d.name=d.name||`${d.subject||'General'} — ${d.chapter||'Bank'}`;d.id=d.id||('BANK-'+btoa(unescape(encodeURIComponent(d.subject||'General'+'|'+d.chapter+'|'+d.name))).replace(/[^A-Za-z0-9]/g,'').slice(0,40));d.questions.forEach((q,n)=>{q.id=q.id||d.id+'-'+(n+1);q.subject=q.subject||d.subject;q.book=q.book||d.book;q.chapter=q.chapter||d.chapter});let n=banks.findIndex(x=>x.id===d.id||x.name===d.name);n>=0?banks[n]=d:banks.push(d);await put('banks',banks);render();alert(`Imported ${d.questions.length} questions.`)}catch(e){alert('Import failed: '+e.message)}}
 function backup(){let d={format:'UPSC_ACTIVE_RECALL_V3',version:3,exportedAt:new Date().toISOString(),banks,stats,marks,history},a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(d,null,2)],{type:'application/json'}));a.download='UPSC_Active_Recall_V3_Backup.json';a.click()}
 function restore(){let f=document.createElement('input');f.type='file';f.accept='.json';f.onchange=async()=>{try{let d=JSON.parse(await f.files[0].text());if(d.format!=='UPSC_ACTIVE_RECALL_V3')throw Error('Not a V3 backup.');banks=d.banks||[];stats=d.stats||{};marks=d.marks||[];history=d.history||[];await put('banks',banks);await put('stats',stats);await put('marks',marks);await put('history',history);alert('Backup restored.');render()}catch(e){alert(e.message)}};f.click()}
 function showHistory(){let q=all(),a=q.filter(x=>stats[x.id]?.attempts),att=a.reduce((n,x)=>n+stats[x.id].attempts,0),cor=a.reduce((n,x)=>n+stats[x.id].correct,0);$('performance').innerHTML=`<p><b>Total questions:</b> ${q.length}</p><p><b>Questions attempted:</b> ${a.length}</p><p><b>Total attempts:</b> ${att}</p><p><b>Overall accuracy:</b> ${att?Math.round(cor/att*100):0}%</p><h3>Recent tests</h3>`+(history.length?history.slice(0,20).map(h=>`<div class="historyRow"><b>${esc(h.name)}</b><br>${new Date(h.date).toLocaleString()}<br>${h.correct}/${h.total} correct — <b>${h.pct}%</b></div>`).join(''):'<p class="muted">No tests yet.</p>');show('history')}
-$('search').oninput=render;$('fileInput').onchange=e=>e.target.files[0]&&importBank(e.target.files[0]);$('backupBtn').onclick=backup;$('restoreBtn').onclick=restore;$('back').onclick=home;$('cancel').onclick=home;$('start').onclick=start;$('next').onclick=nextQ;$('bookmark').onclick=bookmark;$('retry').onclick=()=>revision('wrong');$('resultHome').onclick=home;$('historyHome').onclick=home;$('backupBtn').onclick=backup;document.querySelectorAll('[data-action]').forEach(b=>b.onclick=()=>{let a=b.dataset.action;if(a==='history')showHistory();else if(a==='all')setup(all(),'All Questions');else revision(a)});openDB().then(init);if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+$('search').oninput=render;$('fileInput').onchange=e=>e.target.files[0]&&importBank(e.target.files[0]);$('backupBtn').onclick=backup;$('restoreBtn').onclick=restore;$('back').onclick=home;$('cancel').onclick=home;$('start').onclick=start;$('next').onclick=nextQ;$('bookmark').onclick=bookmark;$('retry').onclick=()=>revision('wrong');$('resultHome').onclick=home;$('historyHome').onclick=home;$('backupBtn').onclick=backup;document.querySelectorAll('[data-action]').forEach(b=>b.onclick=()=>{let a=b.dataset.action;if(a==='history')showHistory();else if(a==='all')setup(all(),'All Questions');else revision(a)});openDB().then(init);if('serviceWorker'in navigator){navigator.serviceWorker.addEventListener('controllerchange',()=>location.reload());navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).catch(e=>console.warn('SW registration failed:',e));}
