@@ -17,32 +17,71 @@ async function finish(){if(finishing)return;finishing=true;clearInterval(timer);
 async function bookmark(){let id=quiz[i].id;marks=marks.includes(id)?marks.filter(x=>x!==id):[...marks,id];await put('marks',marks);renderQ();render()}
 function revision(type){let q=all(),p=type==='wrong'?q.filter(x=>stats[x.id]?.wrong>0):type==='marked'?q.filter(x=>marks.includes(x.id)):q.filter(due);if(!p.length)return alert('Nothing to revise.');setup(p,type==='wrong'?'Wrong Questions':type==='marked'?'Bookmarks':'Due Review')}
 async function deleteChapter(s,c){
-  const targets=banks.filter(b=>(b.subject||'General')===s&&(b.chapter||b.name)===c);
-  if(!targets.length){showDeleteMessage('Delete failed','This chapter/question bank is no longer in local storage. Refresh the app and try again.');return;}
-  const count=targets.reduce((n,b)=>n+(Array.isArray(b.questions)?b.questions.length:0),0);
-  const names=targets.map(b=>b.name||`${s} — ${c}`).join(', ');
-  showDeleteConfirm(`${s} — ${c}`, count, async()=>{
-    try{
-      const ids=new Set(targets.flatMap(b=>(b.questions||[]).map(q=>q.id).filter(Boolean)));
-      const targetIds=new Set(targets.map(b=>b.id).filter(Boolean));
-      // Remove exactly the bank(s) represented by this chapter screen.
-      banks=banks.filter(b=>!targets.includes(b) && !targetIds.has(b.id));
-      const newStats={};
-      Object.keys(stats||{}).forEach(id=>{if(!ids.has(id))newStats[id]=stats[id]});
-      stats=newStats;
-      marks=(marks||[]).filter(id=>!ids.has(id));
-      // Save all related stores before changing screens.
-      await Promise.all([put('banks',banks),put('stats',stats),put('marks',marks)]);
-      current=null;pool=[];quiz=[];wrong=[];answered=false;finishing=false;
-      closeDeleteModal();
-      render();
-      show('home');
-      showDeleteMessage('Deleted successfully',`${names}\n\n${count} questions were removed from this PWA.\n\nYour original JSON file and GitHub copy are untouched.`);
-    }catch(e){
-      console.error('Delete failed:',e);
-      showDeleteMessage('Delete failed',`The bank could not be deleted.\n\n${e?.message||e}`);
+  try{
+    // Match a chapter by the chapter metadata stored either on the bank OR on
+    // its individual questions. This handles older imported JSON formats too.
+    const norm=v=>String(v??'').trim();
+    const targetSubject=norm(s), targetChapter=norm(c);
+    const targets=banks.filter(b=>{
+      const bs=norm(b.subject||'General');
+      const bc=norm(b.chapter||b.name||b.bank_name||'');
+      if(bs===targetSubject && bc===targetChapter) return true;
+      return Array.isArray(b.questions) && b.questions.some(q=>
+        norm(q.subject||bs)===targetSubject && norm(q.chapter||'')===targetChapter
+      );
+    });
+    if(!targets.length){
+      showDeleteMessage('Delete failed',`Could not find “${targetSubject} — ${targetChapter}” in this browser's stored question banks.\n\nIf this bank was imported in an older version, use Export Complete Backup first, then import it again in V3.5.`);
+      return;
     }
-  });
+    const targetBanks=new Set(targets);
+    const ids=new Set();
+    let count=0;
+    targets.forEach(b=>{
+      (b.questions||[]).forEach(q=>{
+        const qs=norm(q.subject||b.subject||'General');
+        const qc=norm(q.chapter||b.chapter||b.name||b.bank_name||'');
+        if(qs===targetSubject && qc===targetChapter){
+          if(q.id) ids.add(String(q.id));
+          count++;
+        }
+      });
+    });
+    // If a bank itself is an exact chapter bank, remove all of its questions.
+    targets.forEach(b=>{
+      const bc=norm(b.chapter||'');
+      if(bc===targetChapter && norm(b.subject||'General')===targetSubject){
+        (b.questions||[]).forEach(q=>{if(q.id) ids.add(String(q.id));});
+        count=Math.max(count,(b.questions||[]).length);
+      }
+    });
+    const names=targets.map(b=>b.name||b.bank_name||`${targetSubject} — ${targetChapter}`).join(', ');
+    showDeleteConfirm(`${targetSubject} — ${targetChapter}`,count,async()=>{
+      try{
+        // Remove the matching bank objects. This is intentionally based on
+        // object identity as well as ID so duplicate/legacy banks are removed.
+        banks=banks.filter(b=>!targetBanks.has(b));
+        const ns={};
+        Object.keys(stats||{}).forEach(id=>{if(!ids.has(String(id)))ns[id]=stats[id];});
+        stats=ns;
+        marks=(marks||[]).filter(id=>!ids.has(String(id)));
+        await put('banks',banks);
+        await put('stats',stats);
+        await put('marks',marks);
+        current=null;pool=[];quiz=[];wrong=[];answered=false;finishing=false;
+        closeDeleteModal();
+        render();
+        show('home');
+        showDeleteMessage('Deleted successfully',`${names}\n\n${count} questions were removed from this PWA.\n\nThe original JSON file and GitHub copy were NOT deleted.`);
+      }catch(e){
+        console.error('Delete transaction failed:',e);
+        showDeleteMessage('Delete failed',`The app could not save the deletion.\n\n${e?.message||String(e)}`);
+      }
+    });
+  }catch(e){
+    console.error('Delete handler failed:',e);
+    showDeleteMessage('Delete failed',e?.message||String(e));
+  }
 }
 function showDeleteConfirm(name,count,onConfirm){
   closeDeleteModal();
